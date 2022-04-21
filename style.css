@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+    :root{
+         --primary-color:#7C3AED;
+         --off-white:#cbd5e1;
+         --dark-gray:#6B7280;
+    }
+  body{
+      font-family: 'Monteserrat';
+      sans-serify;
+
+      
+   }
+ 
+   
+   /** container**/
+
+   .container{
+       padding-left: 20px; padding-right: 20px;
+   }
+
+   .container_fluid{
+       /** max-width: 600px;**/
+        margin: auto;
+   }
+
+   /** links**/
+   hr{
+       margin: 1rem 0rem;
+   }
+   .link{
+       text-decoration: none;
+       padding: 0.5rem 1rem;
+       
+   }
+
+   .primary-link{
+     
+       color:var(--primary-color);
+       border: solid black;
+       border-radius:1rem;
+       background-color:var(--primary-color);
+
+   }
+   .secondary-link{
+       border-radius: 1rem;
+        border: solid black;
+   }
+
+   .list-non-bullet{
+       list-style: none;
+
+   }
+
+   .list-item-inline{
+       display: inline;
+       padding: 0rem 1rem;
+   }
+
+   /**navigation**/
+
+   .navigation{
+       padding: 1rem;
+       color: white;
+        background-color: var(--primary-color);
+
+   }
+   .doublelink{
+       color: white;
+   }
+
+   /**Header**/
+
+   .hero{
+       padding: 3rem;
+   }
+   .heading{
+       max-width: 600px;
+       margin:auto;
+       display: block;
+
+   } 
+   .img-heading .span-color{
+        color: var(--primary-color);
+   }
+   .center{
+       text-align: center;
+       font-size: larger;
+       color: var(--primary-color);
+       
+   }
+   .center1{
+       text-align: center;
+   }
+
+   /**section**/
+   .section{
+       padding: 2rem;
+   }
+   .main{
+       text-align: center;
+       font-style: italic;
+   }
+   
+   .section h3{
+       text-align: center;
+
+   }
+   
+
+   .ow{
+       background-color: var(--off-white);
+   }
+
+   /**footer**/
+   .footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+   }
+   .des{
+       padding: 2rem;
+       font-size: medium;
+   }
+
+.footer .link{
+    color: white;
+}
+
+
