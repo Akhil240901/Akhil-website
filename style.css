@@ -130,4 +130,9 @@
     color: white;
 }
 
+/**project**/
+.border-col{
+    border-radius: 2rem;
+     border-color: black;
+}
 
